@@ -19,6 +19,7 @@ Python Libraries: pymongo, Flask
 
 Bugs:
 main.py: not uploading project name, description to MongoDB.
+  PyMongo library not implemented correctly.
 index.html: buttons are void | URL includes /templates |
 Website: UI isn't developed and or consistent
 
