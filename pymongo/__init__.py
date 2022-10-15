@@ -183,3 +183,7 @@ def timeout(seconds: Optional[float]) -> ContextManager:
     if seconds is not None:
         seconds = float(seconds)
     return _csot._TimeoutContext(seconds)
+
+
+def testInit():
+    print("WHOA THIS WORKED")
