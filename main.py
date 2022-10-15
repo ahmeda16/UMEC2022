@@ -12,12 +12,7 @@ from pymongo.server_api import ServerApi
 #     app.run()
 
 
-
-MONGO_ID = "634af07248a321b8c5475e7f"
-MONGO_KEY = "bfFfyFERzLuUKXzGofdSRqBaODyOARolgQjyveuTo5EuhIerYL5UknSwAG3ZLMGo"
-MONGO_CLUSTER = "input"
-
-client = MongoClient("mongodb+srv://umec2022:SteeledWharfBackback12@input.awyknuf.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+client = MongoClient("mongodb+srv://umec2022:<password>@input.awyknuf.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
 db = client.masterDB
 collection = db.test_project
 
