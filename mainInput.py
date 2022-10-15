@@ -1,4 +1,5 @@
-import lib.pymongo
+from lib.pymongo import MongoClient
+
 
 class mainProject:
 
@@ -10,8 +11,5 @@ class mainProject:
         return self.mainName
 
     def getDescription(self):
-        return self.getDescription
-
-
-
-
+        return self.description
+        
