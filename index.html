@@ -25,15 +25,19 @@
 <py-script>
     from js import console
     
+    print("pow")
+    print(document.getElementById('exampleInputEmail1').value)
+
     def printPy(e):
         console.log("LETS GOOOO")
 </py-script>
 
+<h1 class="text-center">UMEC 2022 Project Management</h1>
 <div>
     <form>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="testInput">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
@@ -44,7 +48,8 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+        <!-- <button id='test-py' pys-onclick="" type="button">print py</button> -->
       </form>
 </div>
 
