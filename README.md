@@ -9,22 +9,22 @@ More or so, it is a to-do list but broken up and created by the user online from
 
 
 Features:
-Hosts a MongoDB for project storage for users to access and implement to thier own website. (Open source!)
-Add Step or Remove Step for major project.
+- Hosts a MongoDB for project storage for users to access and implement to thier own website. (Open source!)
+- Add Step or Remove Step for major project.
 
 
 Installation Requirements: 
-Python Libraries: pymongo, Flask
+- Python Libraries: pymongo, Flask
 
 
 Bugs:
-main.py: not uploading project name, description to MongoDB.
+- main.py: not uploading project name, description to MongoDB.
   PyMongo library not implemented correctly.
-index.html: buttons are void | URL includes /templates |
-Website: UI isn't developed and or consistent
+- index.html: buttons are void | URL includes /templates |
+- Website: UI isn't developed and or consistent
 
 
 References:
-pymongo: https://pymongo.readthedocs.io/en/stable/index.html
-Flask: https://flask.palletsprojects.com/en/2.2.x/quickstart/
-Bootstrap: https://getbootstrap.com/docs/5.2/getting-started/introduction/
+- pymongo: https://pymongo.readthedocs.io/en/stable/index.html
+- Flask: https://flask.palletsprojects.com/en/2.2.x/quickstart/
+- Bootstrap: https://getbootstrap.com/docs/5.2/getting-started/introduction/
