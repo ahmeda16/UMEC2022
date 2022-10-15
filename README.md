@@ -17,8 +17,13 @@ Installation Requirements:
 Python Libraries: pymongo, Flask
 
 
-
 Bugs:
 main.py: not uploading project name, description to MongoDB.
 index.html: buttons are void | URL includes /templates |
-Website: 
+Website: UI isn't developed and or consistent
+
+
+References:
+pymongo: https://pymongo.readthedocs.io/en/stable/index.html
+Flask: https://flask.palletsprojects.com/en/2.2.x/quickstart/
+Bootstrap: https://getbootstrap.com/docs/5.2/getting-started/introduction/
